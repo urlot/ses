@@ -42,7 +42,7 @@
                 Math.pow(souris.clientY - (rect.top + rect.height / 2), 2)
             );
             
-            if (distance < 25) {
+            if (distance < 10) {
                 const newTop = Math.random() * (window.innerHeight - rect.height);
                 const newLeft = Math.random() * (window.innerWidth - rect.width);
                 
